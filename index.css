@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;                        
+    padding: 0;
+}
+.navbar{                             
+    display: flex;                      
+    background-color: #333;         
+    color: white;                  
+}
+.logo{
+    
+    width: 20%;                     
+    display: flex;
+    justify-content: center;          
+    align-items: center;            
+}
+
+
+ul{
+    
+    width: 100%;                  
+    display: flex;                   
+    justify-content: center;        
+    align-items: center;          
+    list-style: none; 
+
+                
+}
+ul li{
+    margin: 0 1rem ;       
+           
+}
+ul li a{
+    color: white;                 
+    text-decoration: none;           
+}
+
+
+header{
+    height: 500px;              
+    display: flex;                   
+    justify-content: center;         
+    align-items: center;             
+    background:url(https://theminimalists.co/wp-content/uploads/2019/07/theminimalists.co-minimal-is-01.jpg) 
+}
+.header-info{
+    width: 650px;              
+    height: 350px;                  
+   text-align: center;            
+}
+.header-info a {
+    background-color: white;     
+    color: black;                 
+    padding: 0.5rem 1rem;          
+    text-decoration: none;          
+    display: block;                
+    margin-top: 2rem;              
+    width: 80px;              
+    margin-left: auto;              
+    margin-right: auto;            
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+}
